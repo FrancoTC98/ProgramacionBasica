@@ -24,6 +24,7 @@ Algoritmo Matrices
 	
 	Escribir "Los valores aleatorios de la matriz son :"
 	
+
 	Para contadorFilas <- 1 Hasta filas Con Paso 1 Hacer
 		Para contadorColumnas <- 1 Hasta columnas Con Paso 1 Hacer
 			Escribir matriz[contadorFilas, contadorColumnas]
