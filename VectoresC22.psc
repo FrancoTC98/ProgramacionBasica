@@ -3,10 +3,14 @@ Algoritmo VectoresC22
 //Los elementos deben ser cargadaos por el usuario
 //Al finalizar la carga, mostrar la cantidad de elementos numericos mayores a 5
 //Ejecion paso por paso, se llama "Debuggeo" 
-	Dimensionar vectorNumerico[10]
-	Definir numIngresar, i, vectorNumerico Como Entero
 	
-	Para i = 1 Hasta 10 Con Paso 1 Hacer
+	Definir numIngresar, i, vectorNumerico Como Entero
+	Definir tamano Como Entero
+	Dimensionar vectorNumerico[10]
+	
+	tamano = 10
+	
+	Para i = 1 Hasta tamano Con Paso 1 Hacer
 		Escribir "Ingrese el valor:"
 		Leer numeroIngresar
 		vectorNumerico[i]=numeroIngresar
